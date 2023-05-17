@@ -1,22 +1,31 @@
+.blog-title {
+  color: white;
+  margin-right: auto;
+}
 
-  
-  .blog-title {
-    color: white;
-    margin-right: auto;
-  }
-  
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: white;
+}
+
+/* responsive */
+@media screen and (max-width: 768px) {
   .nav-links {
-    display: flex;
-    gap: 20px;
+    flex-direction: column;
   }
   
   .nav-links a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
+    margin-bottom: 10px;
   }
-  
-  .nav-links a:hover {
-    color: white;
-  }
-  
+}
+

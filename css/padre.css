@@ -1,27 +1,44 @@
-*{
-    
-    margin: 0;
-    padding: 0;
-    border: none;
-    box-sizing: border-box;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
 
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #001546;
+  padding: 20px;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 0;
+  background-color: #001546;
+  color: white;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+/* responsive */
+@media screen and (max-width: 768px) {
   header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #001546;
-    padding: 20px;
+    flex-direction: column;
+    padding: 10px;
   }
+}
 
-  .back-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 0; /* Coloca el emoticón completamente a la derecha */
-    background-color: #001546;
-    color: white;
-    padding: 5px;
-    border-radius: 50%;
+@media screen and (max-width: 480px) {
+  header {
+    font-size: 14px;
   }
-  
-  
+}
+
+@media screen and (max-width: 320px) {
+  header {
+    font-size: 12px;
+  }
+}

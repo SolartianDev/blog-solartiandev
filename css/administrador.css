@@ -1,31 +1,40 @@
 #experiencias-administrador {
-    margin: 20px;
+  margin: 20px;
+}
+
+.experience-section {
+  border: 2px solid #001546;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#experiencias-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#experiencias-image {
+  margin-bottom: 20px;
+  width: 25%;
+  border: 1px solid #ccc;
+  margin: 10px;
+  justify-content: center;
+  display: flex;
+}
+
+#experiencias-content {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/*responsive */
+@media screen and (max-width: 768px) {
+  #experiencias-image {
+    width: 50%;
   }
 
-.experience-section{
-    border: 2px solid #001546;
-    padding: 20px;
-    border-radius: 5px;
-    }
-  
-  #experiencias-title {
-    font-size: 24px;
-    margin-bottom: 10px;
-    text-align: center
-  }
-  
-  #experiencias-image {
-    margin-bottom: 20px;
-    width: 25%;
-    border: 1px solid #ccc;
-    margin: 10px;
-    justify-content: center;
-    display: flex;
-    
-  }
-  
   #experiencias-content {
-    font-size: 16px;
-    line-height: 1.5;
+    font-size: 14px;
   }
-  
+}

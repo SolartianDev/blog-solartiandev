@@ -1,62 +1,60 @@
 /* Estilos para la sección educativa */
+.educativa {
+  padding: 20px;
+  background-color: #A9CCE3;
+}
 
 .educativa {
-    padding: 20px;
-    background-color: #A9CCE3;
-  }
+  border: 2px solid #001546;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px;
+}
 
-  .educativa{
-    border: 2px solid #001546;
-    padding: 20px;
-    border-radius: 5px;
-    margin: 20px;
-    }
-  
-  .titulo-educativa {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .titulo-frameworks {
-    margin-bottom: 20px;
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .imagen-framework {
-    text-align: center;
-    margin-bottom: 20px;
-    width: 25%;
-    border: 1px solid #ccc;
-    margin: 10px;
-    justify-content: center;
-    display: flex;
-    
-  }
-
-  .imagen-framework-cont {
-    width: 90%;
-    border: 1px solid #ccc;
-    margin: 10px;
-    justify-content: center;
-    display: flex;
-    
-  }
-
-  .contenedor-imagenes {
-    display: flex;
-    justify-content: center;
-  }
-
-  .educativa-segmentos{
-    margin-bottom: 20px;
-  }
-  
-.educativa-segmentos-parr{
+.titulo-educativa {
+  text-align: center;
   margin-bottom: 20px;
 }
 
-  /* Estilos para la sección "Ventajas que se tienen al ser desarrollador web Front-end" */
+.titulo-frameworks {
+  margin-bottom: 20px;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.imagen-framework {
+  text-align: center;
+  margin-bottom: 20px;
+  width: 25%;
+  border: 1px solid #ccc;
+  margin: 10px;
+  justify-content: center;
+  display: flex;
+}
+
+.imagen-framework-cont {
+  width: 90%;
+  border: 1px solid #ccc;
+  margin: 10px;
+  justify-content: center;
+  display: flex;
+}
+
+.contenedor-imagenes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Añadido para envolver las imágenes en múltiples filas */
+}
+
+.educativa-segmentos {
+  margin-bottom: 20px;
+}
+
+.educativa-segmentos-parr {
+  margin-bottom: 20px;
+}
+
+/* Estilos para la sección "Ventajas que se tienen al ser desarrollador web Front-end" */
 .article .ventajas-front {
   font-size: 24px;
   color: #333;
@@ -98,4 +96,25 @@
   color: #666;
 }
 
-  
+/*  responsive */
+
+@media screen and (max-width: 768px) {
+  .imagen-framework {
+    width: 50%; 
+  }
+
+  .imagen-framework-cont {
+    width: 90%; 
+  }
+
+  .contenedor-imagenes {
+    flex-wrap: nowrap; 
+    overflow-x: auto; 
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .imagen-framework {
+    width: 100%; 
+  }
+}

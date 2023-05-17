@@ -1,54 +1,89 @@
-/* .portafolio{
-  background-image: url("../assets/fondo6.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+/* Estilos para la sección educativa */
+
+.educativa {
+  padding: 20px;
+  background-color: #A9CCE3;
 }
- */
+
+.educativa {
+  border: 2px solid #001546;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.titulo-educativa {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.titulo-frameworks {
+  margin-bottom: 20px;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.imagen-framework {
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 200px;
+  border: 1px solid #ccc;
+  margin: 10px;
+}
+
+.contenedor-imagenes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Estilos para la sección de portafolio */
 
 .portafolio {
-    padding: 20px;
-    background-color:white;
-  }
+  padding: 20px;
+  background-color: white;
+}
 
-  .portafolio{
-    border: 2px solid #001546;
-    padding: 20px;
-    border-radius: 5px;
-    margin:20px;
-  }
-  
-  .titulo-portafolio {
-    text-align: center;
-    color: black;
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
-  .imagen-servicios {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-  }
-  
-  .servicio {
-    margin-bottom: 20px;
-  }
-  
-  .titulo-servicio {
-    color:black;
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  
-  .descripcion-servicio {
-    color: black;
-    line-height: 1.5;
-  }
-  
+.portafolio {
+  border: 2px solid #001546;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px;
+}
 
-  .imagen-framework {
-    border: 1px solid black; /* Cambia "black" por el color de borde deseado */
-  }
+.titulo-portafolio {
+  text-align: center;
+  color: black;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.imagen-servicios {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.servicio {
+  margin-bottom: 20px;
+}
+
+.titulo-servicio {
+  color: black;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.descripcion-servicio {
+  color: black;
+  line-height: 1.5;
+}
+
+.imagen-framework {
+  border: 1px solid black;
+}
+
   
