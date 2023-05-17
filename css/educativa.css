@@ -1,0 +1,101 @@
+/* Estilos para la sección educativa */
+
+.educativa {
+    padding: 20px;
+    background-color: #A9CCE3;
+  }
+
+  .educativa{
+    border: 2px solid #001546;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    }
+  
+  .titulo-educativa {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .titulo-frameworks {
+    margin-bottom: 20px;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .imagen-framework {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 25%;
+    border: 1px solid #ccc;
+    margin: 10px;
+    justify-content: center;
+    display: flex;
+    
+  }
+
+  .imagen-framework-cont {
+    width: 90%;
+    border: 1px solid #ccc;
+    margin: 10px;
+    justify-content: center;
+    display: flex;
+    
+  }
+
+  .contenedor-imagenes {
+    display: flex;
+    justify-content: center;
+  }
+
+  .educativa-segmentos{
+    margin-bottom: 20px;
+  }
+  
+.educativa-segmentos-parr{
+  margin-bottom: 20px;
+}
+
+  /* Estilos para la sección "Ventajas que se tienen al ser desarrollador web Front-end" */
+.article .ventajas-front {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.article .ventajas-front picture {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.article .ventajas-front picture img {
+  max-width: 100%;
+}
+
+.article .ventajas-front article {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+}
+
+/* Estilos para la sección "Ventajas que acompañan al desarrollador Back-End" */
+.article .ventajas-back {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.article .ventajas-back img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.article .ventajas-back p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+}
+
+  
